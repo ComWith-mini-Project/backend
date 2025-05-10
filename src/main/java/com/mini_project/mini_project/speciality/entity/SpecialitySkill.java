@@ -19,7 +19,7 @@ public class SpecialitySkill {
     private Speciality speciality;
 
     @Column(nullable = false)
-    private String skill_name;
+    private String SkillName;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)

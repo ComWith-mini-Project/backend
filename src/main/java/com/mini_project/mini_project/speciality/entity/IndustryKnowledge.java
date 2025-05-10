@@ -19,5 +19,5 @@ public class IndustryKnowledge {
     private Speciality speciality;
 
     @Column(nullable = false)
-    private String industry_name;
+    private String IndustryName;
 }
